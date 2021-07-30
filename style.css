@@ -1,0 +1,53 @@
+* {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+body {
+    margin-left: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menuchoose {
+    margin-top: 0px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: aquamarine;
+}
+
+.choose {
+    color: black;
+    font-size: 30px;
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 4%;
+    cursor: pointer;
+}
+
+.choose:hover {
+    background-color: darkblue;
+    color: white;
+    text-decoration: underline;
+    list-style: armenian;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 45%;
+    border: 2px black solid;
+}
+
+.null{
+    height: 40%;
+}
